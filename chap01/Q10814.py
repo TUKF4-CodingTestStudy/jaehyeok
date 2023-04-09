@@ -6,7 +6,7 @@ array = []
 
 for _ in range(n):
     data = input().split(' ')
-    array.append((int(data[0]), data[1]))
+    array.append((int(data[0]), data[1]))   # 튜플이랑 리스트 똑같이 정렬됨
 
 # key 속성을 이용해서 (나이, 이름)에서 첫번째 값을 기준으로 정렬하게 하고
 # 같을 경우 인덱스가 더 빠른것이 앞으로 오게 된다.
